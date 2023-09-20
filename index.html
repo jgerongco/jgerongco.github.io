@@ -2,33 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Portfolio</title>
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Jan Kurt A. Gerongco</h1>
-    <table border="3">
-        <tr>
-            <th>Date</th>
-            <th>Activity Name</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>09/13/23</td>
-            <td><a href="https://jgerongco.github.io/assets/ccs/Activity%201.1%20-%20Fashion%20Blog/index.html"> Fashion Blog </a></td>
-            <td>Complete</td>
-        </tr>
-        <tr>
-            <td>09/13/23</td>
-            <td><a href="https://jgerongco.github.io/assets/ccs/Activity 1.2 - Wine Festival Schedule/wineFest.html"> Wine Festival </a></td>
-            <td>Complete</td>
-        </tr>
-        <tr>
-            <td>09/13/23</td>
-            <td><a href="https://jgerongco.github.io/assets/ccs/Activity 2.1 - Davies Burger/index.html"> Davies Burger </a></td>
-            <td>Complete</td>
-        </tr>
-    </table>    
+    <div class="contanier">
+        <header>
+            <nav>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">About Me</a>
+                    <div class="dropdown">
+                        <a href="#">Web Development</a>
+                        <div class="dropdown-content">
+                            <a href="https://jgerongco.github.io/assets/ccs/Activity%201.1%20-%20Fashion%20Blog/index.html">Fashion Blog</a>
+                            <a href="https://jgerongco.github.io/assets/ccs/Activity 1.2 - Wine Festival Schedule/wineFest.html">Wine Festival Schedule</a>
+                            <a href="https://jgerongco.github.io/assets/ccs/Activity 2.1 - Davies Burger/index.html">Davies Burger</a>
+                            <a href="#">Financial Tracker</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="content">
+            <div class="hero-text">
+                <h1>Web Development</h1>
+                <span>Jan Kurt Gerongco's Portfolio</span>
+                <p>Welcome to My Portfolio. <br> Hi, I'm Jan Kurt A. Gerongco. Nice to meet you! <br> </p>
+            </div>
+            <div class="hero-img">
+                <img src="pic.jpg" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
